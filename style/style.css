@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  color: green;
+  box-sizing: border-box;
+}
+
+.texto-destacado {
+  color: olive;
+  font-size: 1.25rem;
+}
+
+.urgente {
+  color: brown;
+  font-size: 1.25rem;
+}
+
+p1 {
+  margin: 0.3px;
+  padding: auto;
+}
+
+.presentación{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 15%;
+  gap: 45px;
+}
+
+.sobre_mi {
+  color: yellowgreen;
+}
+
+.footer_contenido {
+  background-color: olive;
+  padding: 20px;
+  font-size: 1.5rem;
+  color: azure;
+  text-align: center;
+  font-weight: 400;
+}
+
+.presentación_cuerpo_título {
+  font-size: 3.125rem;
+  padding: 5% 2% 5% 0%;
+}
+
+.presentación_contenido {
+  width: 50%;
+}
+
+.título-destacado {
+  color: yellowgreen;
+}
+
+.texto {
+  font-size: 1.25rem;
+}
+
+.director_cursos {
+  color: olive;
+  font-size: 1.125rem;
+}
+
+.último {
+  font-size: 1.125rem;
+}
+
+.presentación_enlaces_link {
+  width: 50%;
+  text-align: center;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-family: "Monserrat", sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: yellowgreen;
+  border: 2px solid olive;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.presentación_enlaces_link:hover {
+  background-color: pink;
+}
+
+.presentación_subtitulo {
+  font-size: 2.1875rem;
+  font-weight: 400;
+}
+
+.presentación_enlaces {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  padding: 22px;
+}
+
+.curriculum {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.navegación_link {
+  font-family: var(--fuente-monserrat);
+  font-size: 1.625rem;
+  font-weight: 600;
+  color: var(--color-terciario);
+  text-decoration: none;
+}
+
+.navegación {
+  display: flex;
+  gap: 55px;
+  padding: 1.5% 10%;
+}
+
+.navegación:hover {
+  background-color: papayawhip;
+}
+
+.imagen {
+  width: 50%;
+}
+
+@media (max-width: 1150px) {
+  .presentación {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+
+  .navegación{
+    justify-content: center;
+    padding: 10%;
+  }
+
+  .presentación_contenido{
+    width: auto;
+  }
+
+}
